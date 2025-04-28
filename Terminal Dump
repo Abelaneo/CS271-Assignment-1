@@ -1,0 +1,9 @@
+flip3 ~/CS271 1206$ as -o myecho.o myecho.s
+flip3 ~/CS271 1207$ ld -o myecho myecho.o
+flip3 ~/CS271 1208$ ./myecho hello world
+HELLO WORLD
+flip3 ~/CS271 1209$ ./myecho HELLO world 1 2 3 4
+HELLO WORLD 1 2 3 4
+flip3 ~/CS271 1210$ ./myecho
+
+flip3 ~/CS271 1211$
